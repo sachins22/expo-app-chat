@@ -24,7 +24,8 @@
       "permissions": [
         "READ_CONTACTS",
         "WRITE_CONTACTS"
-      ]
+      ],
+      "package": "com.sachins22.chatexpoapp"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +37,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "e9344a8e-7aeb-469d-bb4d-5f94eb74192b"
+      }
     }
   }
 }
