@@ -22,8 +22,12 @@
         "backgroundColor": "#ffffff"
       },
       "permissions": [
-        "READ_CONTACTS",
-        "WRITE_CONTACTS"
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.ACCESS_MEDIA_LOCATION",
+        "android.permission.FOREGROUND_SERVICE",
+        "android.permission.INTERNET",
+        "android.permission.WAKE_LOCK"
       ],
       "package": "com.sachins22.chatexpoapp"
     },
