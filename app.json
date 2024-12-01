@@ -48,11 +48,6 @@
       },
       "eas": {
         "projectId": "e9344a8e-7aeb-469d-bb4d-5f94eb74192b"
-      },
-      "doctor": {
-        "reactNativeDirectoryCheck": {
-          "listUnknownPackages": false
-        }
       }
     }
   }
