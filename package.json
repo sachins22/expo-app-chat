@@ -44,5 +44,11 @@
     "typescript": "~5.3.3"
   },
   "private": true,
-   "expo.doctor.reactNativeDirectoryCheck.listUnknownPackages":false
+   "expo":{
+    "doctor":{
+      "reactNativeDirectoryCheck":{
+        "listUnknownPackages":false
+      }
+    }
+   }
 }
