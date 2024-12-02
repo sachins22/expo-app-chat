@@ -8,12 +8,14 @@ const Stack = createStackNavigator();
   //! import file 
   import Home from '@/src/Home';
   import Login from '@/src/Login';
+  import Agree from '@/src/Agree';
 
 
 function App() {
   return (
     <NavigationIndependentTree >
-      <Stack.Navigator initialRouteName='Login'>
+      <Stack.Navigator initialRouteName='Agree'>
+        <Stack.Screen name="Agree" component={Agree} options={{headerShown:false}} />
         <Stack.Screen name="Login" component={Login} options={{headerShown:false}} />
         <Stack.Screen name="Home" component={Home} options={{headerShown:false}} />
       </Stack.Navigator>
